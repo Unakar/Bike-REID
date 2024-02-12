@@ -1,7 +1,7 @@
 #配置信息
 *.lnk
 PersonalConfig.py
-
+/site
 # 输出结果、模型
 /model
 /src/models/weights/*

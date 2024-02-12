@@ -14,6 +14,3 @@ sort: 3
 # 团队分工
 参见：https://docs.qq.com/sheet/DTHdwUGNKYmtKY2tp?tab=BB08J2&scene=6847fd9cad7f7c5775deeabbSdxRq1&groupUin=1a3ys2so9X5R69UYP0NRwQ%25253D%25253D&ADUIN=1320185497&ADSESSION=1694615243&ADTAG=CLIENT.QQ.6013_.0&ADPUBNO=27347&_t=1694615366387&u=0336795087014403bd1a3a357eecc53b
 
-
-# 项目文档目录
-{% include list.liquid %}

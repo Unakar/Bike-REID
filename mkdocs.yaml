@@ -15,6 +15,8 @@ nav:
     - API: project docs/API Documentation.md
     - Evaluation: project docs/Model Evaluation Result.md
     - User Guide: project docs/User Guide.md
+    - Risk manage: project docs/Risk Management Plan.md
+    - User requirements: project docs/User Requirements Specification.md
   - Survey: survey_report/survey report.md
   - Final Report: final_report/Final Report.md
   - Appendix:
