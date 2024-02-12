@@ -7,7 +7,7 @@ copyright: Copyright &copy; 2024 unakar
 
 # Page tree
 nav:
-  - Home: index.md
+  - Home: final_report/Final Report.md
   - Project docs:
     - Summary: project docs/README.md
     - Test Plan: project docs/Test Plan.md
@@ -18,7 +18,6 @@ nav:
     - Risk manage: project docs/Risk Management Plan.md
     - User requirements: project docs/User Requirements Specification.md
   - Survey: survey_report/survey report.md
-  - Final Report: final_report/Final Report.md
   - Appendix:
     - AI studio: coding tutorial/AI Studio Instructions.md
     - FastReid: coding tutorial/FastReid Quick Start.md

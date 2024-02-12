@@ -1,4 +1,4 @@
-# 结题报告
+<img src="../../img/logo.png" style="zoom: 80%;" />
 
 ## 需求分析
 

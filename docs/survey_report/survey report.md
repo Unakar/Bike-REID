@@ -24,7 +24,7 @@
 
 #### contrastive loss
 此损失拉近标签相同的样本的embedding，拉远标签不同的样本的embedding。其公式为：
-<img src="src/contractive_loss.webp" width="90%">
+<img src="../src/contractive_loss.webp" width="90%">
 其中$d=\left \| a_n-b_n  \right \| ^2$,代表两个样本的欧式距离，y为两个样本是否匹配的标签，y=1代表两个样本相似或者匹配，y=0则代表不匹配，margin为设定的阈值。
 
 参考：https://www.jianshu.com/p/21be99fb58ca
@@ -33,10 +33,10 @@
 参考：https://zhuanlan.zhihu.com/p/462539667
 
 对一个三元组，包含一个锚点（anchor）、一个正样本（positive）和一个负样本（negative）。锚点和正样本是同一类的，而负样本则是和锚点不同类的。triplet loss的目标是让锚点和正样本的距离尽可能的小，而锚点和负样本的距离尽可能的大。
-<img src="survey_report/src/triplet_loss_illustration.png" width="90%">
+<img src="../src/triplet_loss_illustration.png" width="90%">
 
 其公式为：
-<img src="survey_report/src/triplet_loss.webp" width="90%">
+<img src="../src/triplet_loss.webp" width="90%">
 其中，d(a,p)表示锚点和正样本的距离，d(a,n)表示锚点和负样本的距离，margin是一个超参数，用来控制锚点和负样本的距离大于锚点和正样本的距离。一般来说，margin的值在0.2到0.5之间。
 
 #### center loss
@@ -45,7 +45,7 @@
 为每一类的点与类中心距离的平均值。
 
 一般将其与softmax loss加权求和使用如下：
-<img src="survey_report/src/softmax add center loss.webp" width="90%">
+<img src="../src/softmax add center loss.webp" width="90%">
 
 
 #### Angular Margin相关损失函数
@@ -55,15 +55,15 @@ Angular Margin相关的损失函数就是把softmax loss改成对余弦值求sof
 
 ##### A-SoftMax
 其公式如下：
-<img src="survey_report/src/a-softmax-loss.png" width="90%">
+<img src="../src/a-softmax-loss.png" width="90%">
 
 ##### CosFace Loss
 其公式如下：
-<img src="survey_report/src/cosface-loss.png" width="90%">
+<img src="../src/cosface-loss.png" width="90%">
 
 ##### ArcFace Loss
 其公式如下：
-<img src="survey_report/src/arcface-loss.png" width="90%">
+<img src="../src/arcface-loss.png" width="90%">
 
 ArcFace论文解读：https://zhuanlan.zhihu.com/p/374733665
 
@@ -140,7 +140,7 @@ DeepSORT中采用了**一个简单（运算量不大）**的CNN来提取被检�
 
 ### 类间调用示意图
 
-<img src="survey_report/src/module_relationship.jpg" style="zoom: 33%;" />
+<img src="../src/module_relationship.jpg" style="zoom: 33%;" />
 
 
 
