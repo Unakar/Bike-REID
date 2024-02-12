@@ -1,0 +1,83 @@
+site_name: BikeREID
+site_author: Haoming Luo & Tian Xie
+site_description: >-
+  自行车重识别：在监控场景下提供精确，实时，隐私的识别与查询服务
+
+copyright: Copyright &copy; 2024 unakar
+
+# Page tree
+nav:
+  - Home: index.md
+  - Project docs:
+    - Summary: project docs/README.md
+    - Test Plan: project docs/Test Plan.md
+    - Software Design: project docs/Software Design Document.md
+    - API: project docs/API Documentation.md
+    - Evaluation: project docs/Model Evaluation Result.md
+    - User Guide: project docs/User Guide.md
+  - Survey: survey_report/survey report.md
+  - Final Report: final_report/Final Report.md
+  - Appendix:
+    - AI studio: coding tutorial/AI Studio Instructions.md
+    - FastReid: coding tutorial/FastReid Quick Start.md
+    - YOLOv5: coding tutorial/YOLO Quick Start.md
+    - DeepSORT: coding tutorial/DeepSORT Quick Start.md
+
+
+theme:
+  name: material
+  palette:
+    # 日间模式
+    - scheme: default
+      # 主颜色
+      # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#primary-color
+      primary: indigo
+      # 链接等可交互元件的高亮色
+      # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#accent-color
+      accent: orange
+      toggle:
+        # 图标
+        icon: material/weather-night
+        # 鼠标悬浮提示
+        name: 切换至夜间模式
+    # 夜间模式
+    - scheme: slate
+      primary: indigo
+      accent: orange
+      toggle:
+        icon: material/weather-sunny
+        name: 切换至日间模式
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    # - content.code.select
+    # - content.footnote.tooltips
+    # - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    # - navigation.instant
+    # - navigation.instant.prefetch
+    # - navigation.instant.progress
+    # - navigation.prune
+    - navigation.sections
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    # - toc.integrate
+
+
+repo_name: unakar/Bike-REID
+repo_url: https://github.com/Unakar/Bike-REID
+
+

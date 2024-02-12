@@ -1,0 +1,30 @@
+#配置信息
+*.lnk
+PersonalConfig.py
+
+# 输出结果、模型
+/model
+/src/models/weights/*
+/testcases
+*.pt
+*.pth
+/src/runs
+/docs/coding tutorial/examples/runs
+
+#临时文件
+*.log
+#/src/logs/*
+/logs
+/src/logs
+log.txt
+*.pyc
+/src/tmp
+/env/milvus/volumes
+
+#文档草稿
+/docs/draft
+*.pdf
+/.idea
+
+
+

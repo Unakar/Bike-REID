@@ -1,0 +1,37 @@
+torch
+torchvision
+tensorboard
+scikit-learn
+
+matplotlib
+scipy
+Pillow
+numpy
+
+prettytable
+easydict
+pyyaml
+yacs
+termcolor
+tabulate
+
+opencv-python
+
+gdown
+faiss-gpu
+pymysql
+pymilvus
+
+loguru
+tqdm
+thop
+ninja
+psutil
+
+# verified versions
+# pycocotools corresponds to https://github.com/ppwwyyxx/cocoapi
+pycocotools>=2.0.2
+onnx>=1.13.0
+onnx-simplifier==0.4.10
+
+gradio

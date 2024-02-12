@@ -1,0 +1,12 @@
+_BASE_: ./Base-bagtricks.yml
+
+MODEL:
+  WEIGHTS: "models/weights/bike_model_bot_R50_ibn.pth"
+  BACKBONE:
+    WITH_IBN: True
+
+DATASETS:
+  NAMES: ("BikePerson",)
+  TESTS: ("BikePerson",)
+
+OUTPUT_DIR: logs/market1501/bagtricks_R50-ibn
