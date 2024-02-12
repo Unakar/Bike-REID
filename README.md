@@ -1,7 +1,7 @@
 # BikeReid
 
 ​本项目立足校园安防，聚焦于校园自行车的防盗追踪和自动预警,提供了实时，高效，隐私的BikeReid方案。
-<img src="img/logo.png" width="90%">
+<img src="docs/img/logo.png" width="90%">
 
 
 ​我们基于yolox目标检测算法，以监控画面的画面帧作为输入，来实时识别-分割-追踪校园中正在骑行的自行车与自行车上的人。
