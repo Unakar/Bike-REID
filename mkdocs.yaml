@@ -7,7 +7,7 @@ copyright: Copyright &copy; 2024 unakar
 
 # Page tree
 nav:
-  - Home: final_report/Final Report.md
+  - Home: index.md
   - Project docs:
     - Summary: project docs/README.md
     - Test Plan: project docs/Test Plan.md
